@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D8142E228857700092FE4C /* YDCommandError.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8141D2288576F0092FE4C /* YDCommandError.m */; };
+		A6D8142F228857700092FE4C /* YDCommandOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8141E2288576F0092FE4C /* YDCommandOutput.m */; };
+		A6D81431228857700092FE4C /* YDCommand-Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D814202288576F0092FE4C /* YDCommand-Subclass.h */; };
+		A6D81432228857700092FE4C /* YDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D814212288576F0092FE4C /* YDCommand.m */; };
+		A6D81434228857700092FE4C /* YDCommandVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D814232288576F0092FE4C /* YDCommandVariable.m */; };
+		A6D81435228857700092FE4C /* YDCommandKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D814242288576F0092FE4C /* YDCommandKit.h */; };
+		A6D81437228857700092FE4C /* YDCommandElasticTabstop.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6D814262288576F0092FE4C /* YDCommandElasticTabstop.mm */; };
+		A6D81438228857700092FE4C /* YDCommandVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D814272288576F0092FE4C /* YDCommandVariable.h */; };
+		A6D81439228857700092FE4C /* YDCommandError.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D814282288576F0092FE4C /* YDCommandError.h */; };
+		A6D8143A228857700092FE4C /* YDCommandOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D814292288576F0092FE4C /* YDCommandOutput.h */; };
+		A6D8143B228857700092FE4C /* YDCommandElasticTabstop.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D8142A2288576F0092FE4C /* YDCommandElasticTabstop.h */; };
+		A6D8143C228857700092FE4C /* YDCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D8142B2288576F0092FE4C /* YDCommand.h */; };
+		A6D8143D228857700092FE4C /* YDCommandOutputStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D8142C228857700092FE4C /* YDCommandOutputStyle.h */; };
+		A6D8143E228857700092FE4C /* YDCommandOutputStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8142D228857700092FE4C /* YDCommandOutputStyle.m */; };
+		A6D81448228858190092FE4C /* libYDCommandKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D814112288572C0092FE4C /* libYDCommandKit.a */; };
+		A6D8144F228858380092FE4C /* YDCommandVariableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8144E228858380092FE4C /* YDCommandVariableTests.m */; };
+		A6D81450228858480092FE4C /* YDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D814212288576F0092FE4C /* YDCommand.m */; };
+		A6D81451228858480092FE4C /* YDCommandElasticTabstop.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6D814262288576F0092FE4C /* YDCommandElasticTabstop.mm */; };
+		A6D81452228858480092FE4C /* YDCommandError.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8141D2288576F0092FE4C /* YDCommandError.m */; };
+		A6D81453228858480092FE4C /* YDCommandOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8141E2288576F0092FE4C /* YDCommandOutput.m */; };
+		A6D81454228858480092FE4C /* YDCommandOutputStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8142D228857700092FE4C /* YDCommandOutputStyle.m */; };
+		A6D81455228858480092FE4C /* YDCommandVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D814232288576F0092FE4C /* YDCommandVariable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6D81449228858190092FE4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6D814092288572C0092FE4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D814102288572C0092FE4C;
+			remoteInfo = YDCommandKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6D814112288572C0092FE4C /* libYDCommandKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYDCommandKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D8141D2288576F0092FE4C /* YDCommandError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommandError.m; sourceTree = "<group>"; };
+		A6D8141E2288576F0092FE4C /* YDCommandOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommandOutput.m; sourceTree = "<group>"; };
+		A6D814202288576F0092FE4C /* YDCommand-Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDCommand-Subclass.h"; sourceTree = "<group>"; };
+		A6D814212288576F0092FE4C /* YDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommand.m; sourceTree = "<group>"; };
+		A6D814232288576F0092FE4C /* YDCommandVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommandVariable.m; sourceTree = "<group>"; };
+		A6D814242288576F0092FE4C /* YDCommandKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandKit.h; sourceTree = "<group>"; };
+		A6D814262288576F0092FE4C /* YDCommandElasticTabstop.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YDCommandElasticTabstop.mm; sourceTree = "<group>"; };
+		A6D814272288576F0092FE4C /* YDCommandVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandVariable.h; sourceTree = "<group>"; };
+		A6D814282288576F0092FE4C /* YDCommandError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandError.h; sourceTree = "<group>"; };
+		A6D814292288576F0092FE4C /* YDCommandOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandOutput.h; sourceTree = "<group>"; };
+		A6D8142A2288576F0092FE4C /* YDCommandElasticTabstop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandElasticTabstop.h; sourceTree = "<group>"; };
+		A6D8142B2288576F0092FE4C /* YDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommand.h; sourceTree = "<group>"; };
+		A6D8142C228857700092FE4C /* YDCommandOutputStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCommandOutputStyle.h; sourceTree = "<group>"; };
+		A6D8142D228857700092FE4C /* YDCommandOutputStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommandOutputStyle.m; sourceTree = "<group>"; };
+		A6D81443228858190092FE4C /* YDCommandKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDCommandKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D81447228858190092FE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D8144E228858380092FE4C /* YDCommandVariableTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCommandVariableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D8140F2288572C0092FE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D81440228858190092FE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D81448228858190092FE4C /* libYDCommandKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D814082288572C0092FE4C = {
+			isa = PBXGroup;
+			children = (
+				A6D814132288572C0092FE4C /* YDCommandKit */,
+				A6D81444228858190092FE4C /* YDCommandKitTests */,
+				A6D814122288572C0092FE4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D814122288572C0092FE4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D814112288572C0092FE4C /* libYDCommandKit.a */,
+				A6D81443228858190092FE4C /* YDCommandKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D814132288572C0092FE4C /* YDCommandKit */ = {
+			isa = PBXGroup;
+			children = (
+				A6D814242288576F0092FE4C /* YDCommandKit.h */,
+				A6D8142B2288576F0092FE4C /* YDCommand.h */,
+				A6D814202288576F0092FE4C /* YDCommand-Subclass.h */,
+				A6D814212288576F0092FE4C /* YDCommand.m */,
+				A6D8142A2288576F0092FE4C /* YDCommandElasticTabstop.h */,
+				A6D814262288576F0092FE4C /* YDCommandElasticTabstop.mm */,
+				A6D814282288576F0092FE4C /* YDCommandError.h */,
+				A6D8141D2288576F0092FE4C /* YDCommandError.m */,
+				A6D814292288576F0092FE4C /* YDCommandOutput.h */,
+				A6D8141E2288576F0092FE4C /* YDCommandOutput.m */,
+				A6D8142C228857700092FE4C /* YDCommandOutputStyle.h */,
+				A6D8142D228857700092FE4C /* YDCommandOutputStyle.m */,
+				A6D814272288576F0092FE4C /* YDCommandVariable.h */,
+				A6D814232288576F0092FE4C /* YDCommandVariable.m */,
+			);
+			path = YDCommandKit;
+			sourceTree = "<group>";
+		};
+		A6D81444228858190092FE4C /* YDCommandKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8144E228858380092FE4C /* YDCommandVariableTests.m */,
+				A6D81447228858190092FE4C /* Info.plist */,
+			);
+			path = YDCommandKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6D8140D2288572C0092FE4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D81435228857700092FE4C /* YDCommandKit.h in Headers */,
+				A6D8143D228857700092FE4C /* YDCommandOutputStyle.h in Headers */,
+				A6D81431228857700092FE4C /* YDCommand-Subclass.h in Headers */,
+				A6D81438228857700092FE4C /* YDCommandVariable.h in Headers */,
+				A6D8143A228857700092FE4C /* YDCommandOutput.h in Headers */,
+				A6D8143C228857700092FE4C /* YDCommand.h in Headers */,
+				A6D81439228857700092FE4C /* YDCommandError.h in Headers */,
+				A6D8143B228857700092FE4C /* YDCommandElasticTabstop.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6D814102288572C0092FE4C /* YDCommandKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D8141A2288572C0092FE4C /* Build configuration list for PBXNativeTarget "YDCommandKit" */;
+			buildPhases = (
+				A6D8140D2288572C0092FE4C /* Headers */,
+				A6D8140E2288572C0092FE4C /* Sources */,
+				A6D8140F2288572C0092FE4C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDCommandKit;
+			productName = YDCommandKit;
+			productReference = A6D814112288572C0092FE4C /* libYDCommandKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6D81442228858190092FE4C /* YDCommandKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D8144B228858190092FE4C /* Build configuration list for PBXNativeTarget "YDCommandKitTests" */;
+			buildPhases = (
+				A6D8143F228858190092FE4C /* Sources */,
+				A6D81440228858190092FE4C /* Frameworks */,
+				A6D81441228858190092FE4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6D8144A228858190092FE4C /* PBXTargetDependency */,
+			);
+			name = YDCommandKitTests;
+			productName = YDCommandKitTests;
+			productReference = A6D81443228858190092FE4C /* YDCommandKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D814092288572C0092FE4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Young Dynasty";
+				TargetAttributes = {
+					A6D814102288572C0092FE4C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					A6D81442228858190092FE4C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = A6D8140C2288572C0092FE4C /* Build configuration list for PBXProject "YDCommandKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6D814082288572C0092FE4C;
+			productRefGroup = A6D814122288572C0092FE4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D814102288572C0092FE4C /* YDCommandKit */,
+				A6D81442228858190092FE4C /* YDCommandKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D81441228858190092FE4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D8140E2288572C0092FE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D81434228857700092FE4C /* YDCommandVariable.m in Sources */,
+				A6D8142E228857700092FE4C /* YDCommandError.m in Sources */,
+				A6D81437228857700092FE4C /* YDCommandElasticTabstop.mm in Sources */,
+				A6D81432228857700092FE4C /* YDCommand.m in Sources */,
+				A6D8142F228857700092FE4C /* YDCommandOutput.m in Sources */,
+				A6D8143E228857700092FE4C /* YDCommandOutputStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D8143F228858190092FE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D81450228858480092FE4C /* YDCommand.m in Sources */,
+				A6D81453228858480092FE4C /* YDCommandOutput.m in Sources */,
+				A6D81455228858480092FE4C /* YDCommandVariable.m in Sources */,
+				A6D81452228858480092FE4C /* YDCommandError.m in Sources */,
+				A6D81451228858480092FE4C /* YDCommandElasticTabstop.mm in Sources */,
+				A6D8144F228858380092FE4C /* YDCommandVariableTests.m in Sources */,
+				A6D81454228858480092FE4C /* YDCommandOutputStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6D8144A228858190092FE4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6D814102288572C0092FE4C /* YDCommandKit */;
+			targetProxy = A6D81449228858190092FE4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6D814182288572C0092FE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A6D814192288572C0092FE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A6D8141B2288572C0092FE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EEQTQC5N2L;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A6D8141C2288572C0092FE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EEQTQC5N2L;
+				EXECUTABLE_PREFIX = lib;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A6D8144C228858190092FE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EEQTQC5N2L;
+				INFOPLIST_FILE = YDCommandKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngdynasty.YDCommandKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6D8144D228858190092FE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EEQTQC5N2L;
+				INFOPLIST_FILE = YDCommandKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngdynasty.YDCommandKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D8140C2288572C0092FE4C /* Build configuration list for PBXProject "YDCommandKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D814182288572C0092FE4C /* Debug */,
+				A6D814192288572C0092FE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D8141A2288572C0092FE4C /* Build configuration list for PBXNativeTarget "YDCommandKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D8141B2288572C0092FE4C /* Debug */,
+				A6D8141C2288572C0092FE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D8144B228858190092FE4C /* Build configuration list for PBXNativeTarget "YDCommandKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D8144C228858190092FE4C /* Debug */,
+				A6D8144D228858190092FE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D814092288572C0092FE4C /* Project object */;
+}
